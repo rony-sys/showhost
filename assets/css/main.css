@@ -1434,19 +1434,6 @@ input, select, textarea {
 		max-width: 100%;
 		margin: 0 auto 2em auto;
 	}
-	@media screen and (max-width: 480px) {
-
-		.gallery {
-			-moz-flex-wrap: nowrap;
-			-webkit-flex-wrap: nowrap;
-			-ms-flex-wrap: nowrap;
-			flex-wrap: nowrap;
-			-moz-flex-direction: column;
-			-webkit-flex-direction: column;
-			-ms-flex-direction: column;
-			flex-direction: column;
-		}
-	}
 
 /* Header */
 
@@ -1958,6 +1945,11 @@ input, select, textarea {
 			}
 
 		}
+		@media screen and (max-width: 768px) {
+			.image-section {
+				display: none !important;
+			}
+		}
 		.tab-content {
 			background-color: var(--white-color);
 			border-radius: var(--border-radius-medium);
@@ -1965,7 +1957,7 @@ input, select, textarea {
 		  
 		  .nav-tabs {
 			border-bottom: 1px solid #ecf3f2;
-			margin-bottom: 40px;
+			margin-bottom: 10px;
 			justify-content: center;
 		  }
 		  
@@ -1993,6 +1985,12 @@ input, select, textarea {
 			border-bottom-color: var(--primary-color);
 			color: var(--primary-color);
 		  }
+		  @media screen and (max-width: 768px) {
+			.nav-tabs .nav-link {
+				font-size: 0.90rem; /* 폰트 크기 축소 */
+				padding: 8px 10px; /* 패딩을 줄여서 공간 확보 */
+			}
+		}
 		  .gallery.scrollable {
 			display: flex;
 			flex-wrap: nowrap; /* 줄 바꿈을 방지 */
@@ -2005,6 +2003,9 @@ input, select, textarea {
 		
 		.gallery.scrollable::-webkit-scrollbar {
 			display: none; /* For Chrome, Safari, and Opera */
+		}
+		@media (max-width: 768px) { /* 768px 이하에서만 적용 */
+	
 		}
 		.custom-block {
 			flex: 0 0 auto;
@@ -2075,4 +2076,13 @@ input, select, textarea {
 		
 		.scroll-button:focus {
 			outline: none;
+		}
+
+		@media screen and (max-width: 768px) {
+			.scroll-button.scroll-left {
+				left: -50px; /* 더 왼쪽으로 이동 */
+			}
+			.scroll-button.scroll-right {
+				right: -50px; /* 더 오른쪽으로 이동 */
+			}
 		}
