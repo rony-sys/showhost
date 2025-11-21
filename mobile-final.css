@@ -1,0 +1,189 @@
+/* ============================================
+   MOBILE OPTIMIZATIONS - FINAL
+   ============================================ */
+
+/* Mobile - Large (up to 768px) */
+@media screen and (max-width: 768px) {
+
+    /* INTRO SECTION */
+    #intro {
+        min-height: 100vh;
+        min-height: 100dvh;
+    }
+
+    .hero-contact-top {
+        top: 58px;
+        left: 10px;
+        right: 10px;
+        font-size: 0.65rem;
+        line-height: 1.3;
+    }
+
+    .hero-contact-top .contact-row {
+        margin-bottom: 3px;
+    }
+
+    .hero-contact-top .label {
+        min-width: 48px;
+        font-size: 0.6rem;
+    }
+
+    .hero-contact-top .value {
+        font-size: 0.65rem;
+    }
+
+    .hero-title-bottom {
+        bottom: 40px;
+        left: 20px;
+        right: 20px;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    .hero-title-bottom h5 {
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    .hero-title-bottom p {
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+
+    .hero-title-bottom h1 {
+        font-size: 2.5rem;
+        line-height: 1.1;
+    }
+
+    /* PROFILE SECTION */
+    #two {
+        display: flex !important;
+        align-items: flex-end !important;
+        justify-content: center !important;
+        padding: 0 !important;
+        min-height: 100vh !important;
+        min-height: 100dvh !important;
+        background-position: center center !important;
+        background-size: cover !important;
+    }
+
+    #two .content.box {
+        width: 92%;
+        max-width: 92%;
+        padding: 25px 20px;
+        margin: 0 auto 40px auto !important;
+        background: rgba(255, 255, 255, 0.85) !important;
+    }
+
+    #two .content.box hr:last-of-type+p {
+        display: none !important;
+    }
+
+    #two .content.box header h2 {
+        font-size: 2rem;
+    }
+
+    #two .content.box header h4 {
+        font-size: 1.3rem;
+    }
+
+    #two .content.box p {
+        font-size: 0.95rem;
+    }
+
+    #two .content.box ul li {
+        font-size: 0.9rem;
+        margin-bottom: 12px;
+    }
+
+    /* BROADCASTS SECTION */
+    #work h2 {
+        font-size: 2rem;
+    }
+
+    #work p {
+        font-size: 0.95rem;
+    }
+
+    .nav-tabs {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        margin-bottom: 20px;
+    }
+
+    .nav-tabs::-webkit-scrollbar {
+        display: none;
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 0.6rem;
+        top: 56px;
+        left: 8px;
+        right: 8px;
+    }
+
+    .hero-contact-top .label {
+        min-width: 42px;
+        font-size: 0.55rem;
+    }
+
+    .hero-contact-top .value {
+        font-size: 0.6rem;
+    }
+
+    .hero-title-bottom {
+        bottom: 30px;
+        left: 15px;
+        right: 15px;
+        padding: 12px;
+    }
+
+    .hero-title-bottom h5 {
+        font-size: 0.9rem;
+    }
+
+    .hero-title-bottom p {
+        font-size: 0.75rem;
+    }
+
+    .hero-title-bottom h1 {
+        font-size: 2rem;
+    }
+
+    #two .content.box {
+        width: 95%;
+        padding: 20px 15px;
+        margin: 0 auto 30px auto !important;
+    }
+
+    #two .content.box header h2 {
+        font-size: 1.8rem;
+    }
+
+    #two .content.box header h4 {
+        font-size: 1.1rem;
+    }
+
+    #two .content.box p {
+        font-size: 0.9rem;
+    }
+
+    #two .content.box ul li {
+        font-size: 0.85rem;
+    }
+
+    #work h2 {
+        font-size: 1.8rem;
+    }
+
+    #work p {
+        font-size: 0.9rem;
+    }
+
+    #header nav ul li a {
+        font-size: 0.85rem;
+    }
+}

@@ -1,0 +1,178 @@
+{
+  "categories": {
+    "baby": {
+      "id": "baby",
+      "name": "육아/유아",
+      "items": [
+        {
+          "title": "베이비 본죽",
+          "description": "프리미엄 이유식 브랜드",
+          "image": "images/custom/베이비본죽.png",
+          "link": "https://naver.me/F6x1tlo3"
+        },
+        {
+          "title": "아가방",
+          "description": "국민 유아 의류 브랜드",
+          "image": "images/custom/아가방.jpg",
+          "link": "https://naver.me/xl10CxKL"
+        },
+        {
+          "title": "마이크로킥보드",
+          "description": "명품 유아 킥보드",
+          "image": "images/custom/마이크로킥보드.jpg",
+          "link": "https://naver.me/59iw1bcS"
+        },
+        {
+          "title": "에코센",
+          "description": "프리미엄 기저귀",
+          "image": "images/custom/에코센.jpg",
+          "link": "https://naver.me/F6x1tlo3"
+        },
+        {
+          "title": "맘앤리틀",
+          "description": "감성 육아 브랜드",
+          "image": "images/custom/맘앤리틀.jpg",
+          "link": "https://naver.me/FYadbjQm"
+        },
+        {
+          "title": "에르제",
+          "description": "자동 분유제조기",
+          "image": "images/custom/에르제.png",
+          "link": "https://naver.me/5buhyIPQ"
+        },
+        {
+          "title": "청담키즈",
+          "description": "어린이 영양제",
+          "image": "images/custom/청담키즈.jpg",
+          "link": "https://naver.me/FkdIsiZD"
+        },
+        {
+          "title": "자석 블럭",
+          "description": "집콕놀이 필수 장난감",
+          "image": "images/custom/자석블럭.png",
+          "link": "https://naver.me/57ryRf7R"
+        },
+        {
+          "title": "에시앙",
+          "description": "유아 침브랜드",
+          "image": "images/custom/에시앙.jpg",
+          "link": "https://live11-show.11st.co.kr/share/vods/3948"
+        }
+      ]
+    },
+    "health": {
+      "id": "health",
+      "name": "건강/운동",
+      "items": [
+        {
+          "title": "스파이더 언더웨어",
+          "description": "글로벌 의류브랜드",
+          "image": "images/custom/스파이더언더웨어.png",
+          "link": "https://naver.me/x1mpjzxX"
+        },
+        {
+          "title": "뺀닭",
+          "description": "식단엔 닭가슴살",
+          "image": "images/custom/뺀닭.png",
+          "link": "https://naver.me/5QiTEgO6"
+        },
+        {
+          "title": "바디스터",
+          "description": "층간소음 걱정없는 스텝퍼",
+          "image": "images/custom/바디스터.jpg",
+          "link": "https://naver.me/F6b1IQ5Q"
+        }
+      ]
+    },
+    "beauty": {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "title": "로아나 브러쉬",
+          "description": "이탈리아 비건 브러쉬",
+          "image": "images/custom/로아나브러쉬.png",
+          "link": "https://naver.me/Gmf79HDe"
+        },
+        {
+          "title": "엠디프로미스",
+          "description": "청담동 피부과 BB크림",
+          "image": "images/custom/엠디프로미스.jpg",
+          "link": "https://naver.me/F2iewvlP"
+        },
+        {
+          "title": "오드리선 선크림",
+          "description": "100% 무기자차",
+          "image": "images/custom/오드리선선크림.png",
+          "link": "https://naver.me/FINzwiZk"
+        }
+      ]
+    },
+    "life": {
+      "id": "life",
+      "name": "생활용품",
+      "items": [
+        {
+          "title": "브랜디노마켓",
+          "description": "필수 생활용품브랜드",
+          "image": "images/custom/브랜디노마켓.jpg",
+          "link": "https://naver.me/5HtG8udd"
+        },
+        {
+          "title": "오드리선 유기농 생리대",
+          "description": "착한 생리대",
+          "image": "images/custom/오드리선유기농생리대.jpg",
+          "link": "https://shoppinglive.kakao.com/live/44609?input_channel_id=4119&ref=live_share&t_src=shopping_live&t_ch=share&t_obj=talkshare"
+        },
+        {
+          "title": "베이직북 16 노트북",
+          "description": "가성비를 넘어 갓성비",
+          "image": "images/custom/베이직북16노트북.jpg",
+          "link": "https://view.shoppinglive.naver.com/replays/1646931?fm=shoppinglive&sn=share"
+        }
+      ]
+    },
+    "food": {
+      "id": "food",
+      "name": "식품",
+      "items": [
+        {
+          "title": "덕화명란",
+          "description": "프리미엄 명란",
+          "image": "images/custom/덕화명란.jpg",
+          "link": "https://naver.me/5XTZdVd1"
+        },
+        {
+          "title": "엄마기름집",
+          "description": "참기름/들기름",
+          "image": "images/custom/엄마기름집.png",
+          "link": "https://naver.me/Fep9eXdK"
+        },
+        {
+          "title": "미듬수산 과메기",
+          "description": "신선한 과메기",
+          "image": "images/custom/미듬수산과메기.png",
+          "link": "https://naver.me/G871jV0X"
+        },
+        {
+          "title": "자몽",
+          "description": "신선한 자몽",
+          "image": "images/custom/자몽.jpg",
+          "link": "https://naver.me/FwSVkHiq"
+        },
+        {
+          "title": "체리",
+          "description": "프리미엄 체리",
+          "image": "images/custom/체리.jpg",
+          "link": "https://naver.me/IMnlR3iH"
+        },
+        {
+          "title": "모두의집밥",
+          "description": "간편 가정식",
+          "image": "images/custom/모두의집밥.png",
+          "link": "https://naver.me/GsP6HMWx"
+        }
+      ]
+    }
+  }
+}
